@@ -1,6 +1,6 @@
 def call(String project, String hubUser, String ImageTag){
     sh "
-      docker image build -t firstwebappimage:latest .
+      docker image build -t firstwebappimage:latest /src/Dockerfile
     "
 }
 
